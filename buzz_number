@@ -1,0 +1,12 @@
+import java.util.io;
+import java.util.Sacnner;
+
+class BuzzNumberExample{
+    static boolean checkNumber(int number){
+        if(number%10==7 || number%7==0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
